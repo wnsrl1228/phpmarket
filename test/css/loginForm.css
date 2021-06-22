@@ -1,0 +1,22 @@
+.login_size{
+  width: 365px;
+  font-size: 15px;
+  padding: 12px 15px;
+}
+.login_button{
+  width: 400px;
+  font-size: 15px;
+  padding: 12px 0px;
+  border: 1px solid black;
+  background: dodgerblue;
+  color:white;
+}
+.hint{
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+li{
+  width: 400px;
+}

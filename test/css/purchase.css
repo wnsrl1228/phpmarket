@@ -1,0 +1,91 @@
+main{
+  width: 1000px;
+  height: 600px;
+  margin: 200px 23%;
+}
+@media screen and (max-width: 1200px){
+   main{
+      margin-left: 0;
+  }
+}
+img.itemImage{
+   width:400px;
+   height:500px;
+   object-fit: contain;
+   display: inline-block;
+   position: absolute;
+   margin: 20px 10px 0px 40px;
+}
+div.item_info{
+  width: 500px;
+  height:auto;
+  display: inline-block;
+  margin-left:500px;
+}
+
+li.item_name{
+  font-weight:bold;
+  font-size:  25px;
+  word-wrap: break-word;
+  margin: 60px;
+  border-bottom:  1px solid gray;
+}
+li.item_price{
+  font-size: 23px;
+  font-weight:bolder;
+  color: #B22222;
+  margin: 60px;
+  border-bottom:  1px solid gray;
+}
+.item_price_input{
+  text-align:center;
+  height:30px;
+  width:123px;
+  font-size:23px;
+  font-weight:bolder;
+  color: #B22222;
+  border:0;
+}
+li.item_recommend_count{
+  font-size: 22px;
+  font-weight:bolder;
+  font-family:monospace;
+  margin: 60px;
+  border-bottom:  1px solid gray;
+}
+ul{
+  list-style:none;
+  padding-left: 0px;
+}
+table{
+  float: left;
+}
+/* form부분 */
+input.count_input{
+   text-align:center;
+   height:35px;
+   width:65px;
+   font-size:17px;
+   float: left;
+   border:0;
+}
+input.button_input{
+  width:20pt;
+  height:20pt;
+  border: 0px;
+  background: #F0F8FF;
+}
+
+input.buy_item_button{
+  width:200px;
+  height:40px;
+  font-size:20px;
+  background: dodgerblue;
+  color:white;
+  border: dodgerblue;
+  margin-left: 47%;
+  margin-top:20%;
+}
+.buy_item_button:hover{
+  background: MediumBlue;
+}
